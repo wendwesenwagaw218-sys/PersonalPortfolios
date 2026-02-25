@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wendwesen Wagaw · Full Stack & Systems Engineer</title>
+  <!-- ===== home.css ===== -->
+  <link rel="stylesheet" href="home.css">
+  <!-- Google Fonts & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- NAVBAR (matches about/contact/projects) -->
+  <nav class="navbar">
+    <div class="logo">Wendwesen<span>Dev</span></div>
+    <ul class="nav-links">
+      <li><a href="home.html" class="active">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION (refreshed, vibrant) -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="greeting">👋 Hello, I'm</div>
+        <h1>Wendwesen <span class="gradient-text">Wagaw</span></h1>
+        <div class="typed-wrapper">
+          <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-description">
+          <span class="highlight-block">AI-Powered Digital Solutions for Real-World Impact.</span>
+          Information Systems student at University of Gondar building scalable web & machine learning systems
+          that transform ideas into intelligent user experiences.
+        </p>
+        <div class="hero-buttons">
+          <a href="aboutme.html" class="btn btn-primary">Explore Me <i class="fa-regular fa-user"></i></a>
+          <a href="projects.html" class="btn btn-outline">View Projects <i class="fa-regular fa-folder-open"></i></a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/wendwesen-wagaw-0b482a38b" target="_blank" aria-label="LinkedIn"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://t.me/wendwesen1" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-ring">
+          <img src="wen.jpg" alt="Wendwesen Wagaw" class="profile-photo">
+        </div>
+        <div class="floating-icons">
+          <span><i class="fas fa-code"></i></span>
+          <span><i class="fas fa-robot"></i></span>
+          <span><i class="fas fa-shield-halved"></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </header>
+
+  <!-- ===== QUICK SUMMARY CARDS (with "see more" links to each page) ===== -->
+  <section class="summary-section">
+    <div class="container">
+      <h2 class="section-title">At a <span class="gradient-text">glance</span></h2>
+      <div class="summary-grid">
+        <!-- About Me card -->
+        <div class="summary-card">
+          <div class="card-icon"><i class="fa-regular fa-address-card"></i></div>
+          <h3>Who I Am</h3>
+          <p>Full Stack & Systems Engineer · AI integration · Network security · Startup winner 2025</p>
+          <a href="aboutme.html" class="card-link">See more <i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+        <!-- Skills card -->
+        <div class="summary-card">
+          <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Core Skills</h3>
+          <p>React, Node, Python, Django, Android, ML fundamentals, firewall/IDS, VPN, cloud basics</p>
+          <a href="skills.html" class="card-link">See more <i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+        <!-- Projects card -->
+        <div class="summary-card">
+          <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Featured Projects</h3>
+          <p>E-Tour Ethiopia (winner), EthioCraft Global, AgriSmart Hub, system analysis</p>
+          <a href="projects.html" class="card-link">See more <i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+        <!-- Contact / Connect card -->
+        <div class="summary-card">
+          <div class="card-icon"><i class="fa-regular fa-comment"></i></div>
+          <h3>Let's Connect</h3>
+          <p>Available for collaborations, freelance, and tech talks. Reach out anytime.</p>
+          <a href="contact.html" class="card-link">See more <i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MINI ABOUT PREVIEW (like about page teaser) ===== -->
+  <section class="mini-about">
+    <div class="container">
+      <div class="about-preview-grid">
+        <div class="about-preview-text">
+          <h2><span class="gradient-text">Full Stack & Systems Engineer</span> – Secure, Scalable Infrastructure</h2>
+          <p>I bridge application development with underlying infrastructure, designing end-to-end digital ecosystems.
+            My work combines software engineering discipline with network security, server administration, and
+            cloud-ready strategies.</p>
+          <div class="stats-mini">
+            <div><strong>3+</strong> years practice</div>
+            <div><strong>4</strong> major projects</div>
+            <div><strong>2025</strong> startup winner</div>
+          </div>
+          <a href="aboutme.html" class="btn btn-secondary">Full story <i class="fa-regular fa-circle-right"></i></a>
+        </div>
+        <div class="about-preview-highlight">
+          <div class="highlight-card">
+            <i class="fa-solid fa-trophy"></i>
+            <p>Top Winner · Student Startup Competition 2025 (E-Tour Ethiopia)</p>
+          </div>
+          <div class="highlight-card">
+            <i class="fa-solid fa-shield"></i>
+            <p>Network Security · firewall, IDS, VPN, encryption</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS PREVIEW (compact, with progress bars) ===== -->
+  <section class="skills-preview">
+    <div class="container">
+      <h2 class="section-title">Technical <span class="gradient-text">stack</span></h2>
+      <div class="skills-mini-grid">
+        <div class="skill-mini-item">
+          <div class="skill-header"><span>React / Node</span> <span>85%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width:85%"></div>
+          </div>
+        </div>
+        <div class="skill-mini-item">
+          <div class="skill-header"><span>Python (Django/Flask)</span> <span>80%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width:80%"></div>
+          </div>
+        </div>
+        <div class="skill-mini-item">
+          <div class="skill-header"><span>Android (Kotlin)</span> <span>75%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width:75%"></div>
+          </div>
+        </div>
+        <div class="skill-mini-item">
+          <div class="skill-header"><span>Network Security</span> <span>70%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width:70%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="center-link">
+        <a href="skills.html" class="card-link">View all skills <i class="fa-regular fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECT TEASER (two featured projects) ===== -->
+  <section class="projects-teaser">
+    <div class="container">
+      <h2 class="section-title">Recent <span class="gradient-text">work</span></h2>
+      <div class="teaser-grid">
+        <div class="teaser-card">
+          <div class="teaser-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>E-Tour Ethiopia</h3>
+          <p>360° virtual tours, AI travel recommendations, secure payments – winner of 2025 startup competition.</p>
+          <div class="tech-badge">Django · Three.js · PostgreSQL</div>
+          <a href="projects.html" class="card-link">details <i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+        <div class="teaser-card">
+          <div class="teaser-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>AgriSmart Hub</h3>
+          <p>AI-powered agricultural advisory: crop suitability, weather‑based inputs, mobile‑first.</p>
+          <div class="tech-badge">Kotlin · TensorFlow Lite · Firebase</div>
+          <a href="projects.html" class="card-link">details <i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CONNECT PREVIEW ===== -->
+  <section class="connect-preview">
+    <div class="container">
+      <div class="connect-card">
+        <div class="connect-text">
+          <h2>Interested in <span class="gradient-text">collaborating?</span></h2>
+          <p>Whether it's a project, research, or just tech chat – I'm always open to new opportunities.</p>
+          <a href="contact.html" class="btn btn-primary">Get in touch <i class="fa-regular fa-paper-plane"></i></a>
+        </div>
+        <div class="connect-quick">
+          <div><i class="fa-regular fa-envelope"></i> wendeor21@gmail.com</div>
+          <div><i class="fa-regular fa-phone"></i> +251 923525734</div>
+          <div><i class="fa-brands fa-telegram"></i> @wendwesen1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (exact match from other pages) -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>Wendwesen<span>Dev</span></h3>
+        <p>Information Systems · University of Gondar</p>
+        <p>Full Stack · AI · Network Security</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="home.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <div class="footer-social">
+          <a href="https://github.com/wendeor21-ai" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/wendwesen-wagaw-0b482a38b" target="_blank" aria-label="LinkedIn"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://t.me/wendwesen1" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="https://wa.me/251914225724" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Wendwesen Wagaw — built with secure, scalable systems</p>
+  </footer>
+
+  <!-- scripts -->
+  <script>
+    // mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    // close on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('active'));
+    });
+
+    // simple typed effect
+    const typedSpan = document.getElementById('typed');
+    const phrases = ['Full Stack Developer', 'Systems Engineer', 'AI Enthusiast', 'Startup Winner'];
+    let i = 0;
+    let j = 0;
+    let currentPhrase = [];
+    let isDeleting = false;
+    let isEnd = false;
+
+    function loop() {
+      isEnd = false;
+      typedSpan.innerHTML = currentPhrase.join('');
+      if (i < phrases.length) {
+        if (!isDeleting && j <= phrases[i].length) {
+          currentPhrase.push(phrases[i][j]);
+          j++;
+        }
+        if (isDeleting && j <= phrases[i].length) {
+          currentPhrase.pop();
+          j--;
+        }
+        if (j == phrases[i].length) {
+          isEnd = true;
+          isDeleting = true;
+        }
+        if (isDeleting && j === 0) {
+          currentPhrase = [];
+          isDeleting = false;
+          i++;
+          if (i == phrases.length) i = 0;
+        }
+      }
+      setTimeout(loop, isEnd ? 1500 : isDeleting ? 60 : 100);
+    }
+    loop();
+  </script>
+</body>
+
+</html>

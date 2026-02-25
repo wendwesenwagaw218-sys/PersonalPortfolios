@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Wendwesen · Full Stack & Systems Engineer</title>
+  <!-- ===== aboutme.css ===== -->
+  <link rel="stylesheet" href="aboutme.css">
+  <!-- Font Awesome 6 (free) & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- NAVBAR (matches project/contact style) -->
+  <nav class="navbar">
+    <div class="logo">Wendwesen<span>Dev</span></div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html" class="active">About Me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO (simple, bold) -->
+  <header class="page-header">
+    <div class="container">
+      <h1>About Me</h1>
+      <div class="header-underline"></div>
+    </div>
+  </header>
+
+  <!-- MAIN BIO SECTION – redesigned with vibrant glass & gradient -->
+  <main>
+    <!-- INTRO CARD (left image, right text) -->
+    <section class="intro-section fade-in">
+      <div class="container intro-grid">
+        <!-- profile image with animated glow -->
+        <div class="profile-frame">
+          <div class="profile-glow"></div>
+          <img src="linkedin.jpg" alt="Wendwesen Wagaw" class="profile-img">
+          <div class="status-badge">
+            <i class="fa-solid fa-circle-check"></i> Open to collab
+          </div>
+        </div>
+
+        <!-- right side glass card (expanded) -->
+        <div class="intro-card glass-card">
+          <h2><span class="gradient-highlight">Full Stack & Systems Engineer</span>  Secure, Scalable Infrastructure &
+            Web Systems</h2>
+
+          <p class="lead">I am a multidisciplinary technology professional specializing in both <strong>Full Stack
+              Software Development</strong> and <strong>Systems & Network Engineering</strong>. My expertise bridges
+            application development with underlying infrastructure, enabling me to design, deploy, and manage complete
+            end-to-end digital ecosystems.</p>
+
+          <p>With a strong foundation in system architecture, network configuration, and backend engineering, I develop
+            scalable web applications that operate efficiently on secure and optimized infrastructures. My technical
+            focus includes server administration, database systems, API development, network security principles, and
+            cloud-ready deployment strategies.</p>
+
+          <div class="achievement-grid">
+            <div class="achievement-item">
+              <i class="fa-solid fa-trophy"></i>
+              <div><strong>Top Winner</strong> <span>2025 Student Startup Competition (E-Tour Ethiopia)</span></div>
+            </div>
+            <div class="achievement-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div><strong>Network Security</strong> <span>Firewall, IDS, VPN, encryption fundamentals</span></div>
+            </div>
+          </div>
+
+          <p>I combine software engineering discipline with infrastructure-level understanding, ensuring that
+            applications are not only functional but <strong>secure, reliable, and performance-optimized</strong>. My
+            integrated approach allows me to design systems that align application logic, server environments, and
+            network architecture into a unified, production-ready solution.</p>
+
+          <p>Through my <strong>GitHub profile</strong>, I demonstrate hands-on implementation, version control
+            practices, and technical experimentation. My <strong>LinkedIn presence</strong> strengthens my professional
+            visibility and reflects continuous learning in modern systems, networking, and software engineering domains.
+          </p>
+
+          <!-- CTA buttons (like contact page) -->
+          <div class="cta-group">
+            <a href="https://github.com/wendeor21-ai" class="btn btn-primary"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/wendwesen-wagaw-0b482a38b" class="btn btn-secondary"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="projects.html" class="btn btn-outline"><i class="fa-solid fa-arrow-right"></i> Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE PILLARS SECTION (3 cards, like contact/resources but with new colors) -->
+    <section class="pillars-section fade-in">
+      <div class="container">
+        <h2 class="section-title">Core <span class="gradient-text">competencies</span></h2>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon" style="background: linear-gradient(145deg, #2563eb, #38bdf8);">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3>Full‑Stack Engineering</h3>
+            <p>React, Node.js, Python (Django/Flask), RESTful APIs, database design (SQL/NoSQL), and performance
+              optimization.</p>
+            <div class="pillar-tags">
+              <span>React</span><span>Node</span><span>Python</span><span>PostgreSQL</span>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon" style="background: linear-gradient(145deg, #7e22ce, #a855f7);">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3>AI‑Integrated Systems</h3>
+            <p>LLM integration, recommendation engines, scikit-learn, TensorFlow basics, and intelligent feature
+              development.</p>
+            <div class="pillar-tags">
+              <span>LLMs</span><span>RAG</span><span>Scikit-learn</span><span>APIs</span>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon" style="background: linear-gradient(145deg, #0f172a, #334155);">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Systems & Network Security</h3>
+            <p>Firewall configuration, intrusion detection, VPNs, access control, encryption fundamentals, secure
+              architecture.</p>
+            <div class="pillar-tags">
+              <span>VPN</span><span>IDS/IPS</span><span>PKI</span><span>Zero Trust</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINI TIMELINE / EDUCATION (compact, professional) -->
+    <section class="edu-section fade-in">
+      <div class="container">
+        <h2 class="section-title">Journey <span class="gradient-text">& credentials</span></h2>
+        <div class="edu-flex">
+          <div class="edu-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h4>B.Sc. Information Systems</h4>
+            <p>University of Gondar · 2027 (expected)</p>
+          </div>
+          <div class="edu-card">
+            <i class="fa-solid fa-certificate"></i>
+            <h4>Startup Competition Winner</h4>
+            <p>E-Tour Ethiopia · 2025</p>
+          </div>
+          <div class="edu-card">
+            <i class="fa-solid fa-shield"></i>
+            <h4>Network Security Certified</h4>
+            <p>Udacity / UoG trainings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE / VISION (attractive highlight) -->
+    <section class="vision-section fade-in">
+      <div class="container">
+        <div class="vision-card glass-card">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>I architect systems that are not only smart but also <span class="gradient-highlight">secure, scalable, and
+              context‑aware</span>. My goal is to lead the African digital transformation by building infrastructure
+            that empowers communities.</p>
+          <div class="vision-footer">
+            <span>— Wendwesen Wagaw</span>
+            <small>Full Stack & Systems Engineer</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (exactly like contact page) -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>Wendwesen<span>Dev</span></h3>
+        <p>Information Systems · University of Gondar</p>
+        <p>Full Stack · AI · Network Security</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="home.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <div class="footer-social">
+          <a href="https://github.com/wendeor21-ai" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/wendwesen-wagaw-0b482a38b" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://t.me/wendwesen1" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="https://wa.me/251914225724" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Wendwesen Wagaw — built with secure, scalable systems</p>
+  </footer>
+
+  <!-- mobile menu script + fade observer -->
+  <script>
+    // mobile toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+    // close on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('active'));
+    });
+
+    // fade-in observer
+    const faders = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => e.isIntersecting && e.target.classList.add('visible'));
+    }, { threshold: 0.2 });
+    faders.forEach(el => observer.observe(el));
+  </script>
+</body>
+
+</html>

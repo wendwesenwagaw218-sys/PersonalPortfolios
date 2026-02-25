@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills | Wendwesen Wagaw · full‑stack & AI</title>
+  <!-- Link to external CSS (skills.css) — keeps all styling separate -->
+  <link rel="stylesheet" href="skills.css">
+  <!-- Google Fonts & Font Awesome (also referenced in CSS, but safe to keep) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- note: all styles are inside skills.css (the long style block you provided is now assumed to be there) 
+       but to keep exactly the sample structure, I will NOT duplicate the CSS here – we rely on the external file.
+       The following HTML is the modified skills page based on your uploaded PDF categories. -->
+</head>
+
+<body>
+  <!-- Navbar (consistent with other pages) -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Wendwesen<span>Dev</span></div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <div class="skills-hero">
+      <div class="container">
+        <h1>My <span class="highlight">Skills</span></h1>
+        <p>Competencies aligned with my academic & professional journey</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MAIN SKILLS SECTION (restructured per resume PDF) ========== -->
+  <section class="technical-skills">
+    <div class="container">
+      <h2 class="section-title">Technical <span class="highlight">expertise</span></h2>
+
+      <!-- 1️⃣ PROGRAMMING & DEVELOPMENT (from PDF) -->
+      <div class="skills-category">
+        <h3><i class="fa-solid fa-code" style="margin-right: 12px;"></i> Programming & Development</h3>
+        <div class="skills-grid">
+          <!-- Web Development (combined HTML/CSS/JS) -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h4>Web Development</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="88%"></div>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <p style="margin-top: 10px; color: var(--text-light);">HTML5, CSS3, JavaScript, responsive design</p>
+          </div>
+          <!-- Android Development -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-android"></i></div>
+              <h4>Android Development</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80%"></div>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <p style="margin-top: 10px; color: var(--text-light);">Kotlin, Jetpack, Firebase</p>
+          </div>
+          <!-- Git & GitHub -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+              <h4>Git & GitHub</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85%"></div>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <p style="margin-top: 10px; color: var(--text-light);">version control, branching, collaboration</p>
+          </div>
+          <!-- additional: backend basics / node (optional) but keep PDF categories clean -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+              <h4>Backend fundamentals</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="75%"></div>
+              <span class="skill-percentage">75%</span>
+            </div>
+            <p style="margin-top: 10px; color: var(--text-light);">Node.js (basic), REST APIs</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2️⃣ DATA & ARTIFICIAL INTELLIGENCE (from PDF) -->
+      <div class="skills-category">
+        <h3><i class="fa-solid fa-brain" style="margin-right: 12px;"></i> Data & Artificial Intelligence</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
+              <h4>Machine Learning Fundamentals</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80%"></div>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <p style="margin-top: 10px;">supervised/unsupervised, scikit‑learn</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-star"></i></div>
+              <h4>AI‑Based Recommendation Systems</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="78%"></div>
+              <span class="skill-percentage">78%</span>
+            </div>
+            <p style="margin-top: 10px;">collaborative filtering, content‑based</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+              <h4>Data Analysis</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85%"></div>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <p style="margin-top: 10px;">pandas, numpy, data visualization</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3️⃣ SYSTEMS & NETWORKING (from PDF) -->
+      <div class="skills-category">
+        <h3><i class="fa-solid fa-network-wired" style="margin-right: 12px;"></i> Systems & Networking</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-sitemap"></i></div>
+              <h4>Systems Analysis & Design</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="87%"></div>
+              <span class="skill-percentage">87%</span>
+            </div>
+            <p style="margin-top: 10px;">UML, requirements, structured design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+              <h4>Computer Networking</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="75%"></div>
+              <span class="skill-percentage">75%</span>
+            </div>
+            <p style="margin-top: 10px;">TCP/IP, routing, network configuration</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h4>Information Security</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="70%"></div>
+              <span class="skill-percentage">70%</span>
+            </div>
+            <p style="margin-top: 10px;">CIA triad, basic security practices</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-headset"></i></div>
+              <h4>IT Support</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80%"></div>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <p style="margin-top: 10px;">troubleshooting, user support</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4️⃣ ADDITIONAL COMPETENCES: languages & tools (based on resume) -->
+      <div class="skills-category">
+        <h3><i class="fa-solid fa-toolbox" style="margin-right: 12px;"></i> Languages & tools</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-language"></i></div>
+              <h4>Amharic</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="100%"></div>
+              <span class="skill-percentage">native</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-language"></i></div>
+              <h4>English</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90%"></div>
+              <span class="skill-percentage">fluent</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+              <h4>Command line / Linux</h4>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="70%"></div>
+              <span class="skill-percentage">70%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOFT SKILLS (keep as original, they are fine) -->
+  <section class="soft-skills">
+    <div class="container">
+      <h2 class="section-title">Soft <span class="highlight">Skills</span></h2>
+      <div class="soft-skills-grid">
+        <div class="soft-skill-item">
+          <div class="soft-skill-icon"><i class="fas fa-comments"></i></div>
+          <h4>Communication</h4>
+        </div>
+        <div class="soft-skill-item">
+          <div class="soft-skill-icon"><i class="fas fa-lightbulb"></i></div>
+          <h4>Problem Solving</h4>
+        </div>
+        <div class="soft-skill-item">
+          <div class="soft-skill-icon"><i class="fas fa-users"></i></div>
+          <h4>Teamwork</h4>
+        </div>
+        <div class="soft-skill-item">
+          <div class="soft-skill-icon"><i class="fas fa-tasks"></i></div>
+          <h4>Time Management</h4>
+        </div>
+        <div class="soft-skill-item">
+          <div class="soft-skill-icon"><i class="fas fa-brain"></i></div>
+          <h4>Critical Thinking</h4>
+        </div>
+        <div class="soft-skill-item">
+          <div class="soft-skill-icon"><i class="fas fa-handshake"></i></div>
+          <h4>Collaboration</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS DEVELOPMENT & FUTURE GOALS (updated with relevant content) -->
+  <section class="skills-development">
+    <div class="container">
+      <h2 class="section-title">Continuous <span class="highlight">growth</span></h2>
+      <div class="development-content">
+        <div class="current-skills">
+          <h3><i class="fa-solid fa-arrow-trend-up"></i> Currently learning</h3>
+          <ul>
+            <li><i class="fas fa-arrow-right"></i> Advanced machine learning (deep learning)</li>
+            <li><i class="fas fa-arrow-right"></i> Cloud computing (AWS / Azure fundamentals)</li>
+            <li><i class="fas fa-arrow-right"></i> DevOps & containerization (Docker)</li>
+            <li><i class="fas fa-arrow-right"></i> Advanced database administration</li>
+            <li><i class="fas fa-arrow-right"></i> Computer networking (CCNA basics)</li>
+          </ul>
+        </div>
+        <div class="future-goals">
+          <h3><i class="fa-regular fa-star"></i> Future goals</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Become AI/ML specialist</li>
+            <li><i class="fas fa-check-circle"></i> Master full‑stack development</li>
+            <li><i class="fas fa-check-circle"></i> Build large‑scale distributed systems</li>
+            <li><i class="fas fa-check-circle"></i> Cloud solutions architect</li>
+            <li><i class="fas fa-check-circle"></i> Contribute to open‑source AI</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="skills-cta">
+    <div class="container">
+      <h2>Interested in my work?</h2>
+      <div class="cta-buttons">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (exactly as original) -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="footer-logo">Wendwesen<span>Dev</span></div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect</h3>
+          <div class="social-icons">
+            <a href="https://github.com/wendeor21-ai" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wendwesen-wagaw-1b9b4a1b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me/251914225724" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://t.me/wendwesen1" target="_blank"><i class="fab fa-telegram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 | Created by <strong>Wendwesen</strong> — based on Information Systems, UoG</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- scripts (identical to original) -->
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navLinks.classList.toggle("active");
+    });
+
+    // skill bar animation
+    const skillBars = document.querySelectorAll('.skill-progress');
+    function isInViewport(el) {
+      const rect = el.getBoundingClientRect();
+      return rect.top <= (window.innerHeight || document.documentElement.clientHeight) && rect.bottom >= 0;
+    }
+    function animateBars() {
+      skillBars.forEach(bar => {
+        if (isInViewport(bar) && bar.style.width === '') {
+          const width = bar.getAttribute('data-width');
+          bar.style.width = width;
+        }
+      });
+    }
+    window.addEventListener('scroll', animateBars);
+    window.addEventListener('load', animateBars);
+
+    // hover effect cards
+    document.querySelectorAll('.skill-card').forEach(card => {
+      card.addEventListener('mouseenter', function () { this.style.transform = 'translateY(-10px)'; });
+      card.addEventListener('mouseleave', function () { this.style.transform = 'translateY(0)'; });
+    });
+  </script>
+</body>
+
+</html>
