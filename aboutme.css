@@ -581,7 +581,7 @@ body::after {
 /* ---------- FOOTER (exact match with contact) ---------- */
 footer {
   background: linear-gradient(145deg, #1f2937, #374151);
-  color: #6b7280;
+  color: #e5e7eb;
   padding: 60px 20px 20px;
   margin-top: 60px;
 }
@@ -596,7 +596,7 @@ footer {
 }
 
 .footer-col h3 {
-  color: #1f2937;
+  color: #ffffff;
   margin-bottom: 1.5rem;
   font-size: 1.3rem;
   position: relative;
@@ -619,7 +619,7 @@ footer {
 }
 
 .footer-col a {
-  color: #6b7280;
+  color: #d1d5db;
   text-decoration: none;
   display: block;
   margin-bottom: 0.8rem;
@@ -627,7 +627,7 @@ footer {
 }
 
 .footer-col a:hover {
-  color: var(--primary);
+  color: #ffffff;
   transform: translateX(5px);
 }
 
@@ -655,12 +655,12 @@ footer {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(37, 99, 235, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 3rem;
   padding-top: 2rem;
   text-align: center;
   font-size: 0.95rem;
-  color: #6b7280;
+  color: #d1d5db;
 }
 
 /* ---------- ANIMATIONS ---------- */

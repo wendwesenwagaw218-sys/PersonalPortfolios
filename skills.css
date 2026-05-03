@@ -495,7 +495,7 @@
     /* Footer */
     footer {
       background: var(--dark);
-      color: white;
+      color: #e5e7eb;
       padding: 60px 0 20px;
     }
 
@@ -530,13 +530,13 @@
     }
 
     .footer-links a {
-      color: rgba(255, 255, 255, 0.7);
+      color: #d1d5db;
       text-decoration: none;
       transition: color 0.3s ease;
     }
 
     .footer-links a:hover {
-      color: var(--primary-light);
+      color: #ffffff;
     }
 
     .footer-social .social-icons {
@@ -551,14 +551,15 @@
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: rgba(255, 255, 255, 0.1);
-      color: white;
+      background-color: rgba(37, 99, 235, 0.2);
+      color: #d1d5db;
       text-decoration: none;
       transition: all 0.3s ease;
     }
 
     .footer-social .social-icons a:hover {
       background-color: var(--primary-light);
+      color: white;
       transform: translateY(-3px);
     }
 
@@ -566,11 +567,11 @@
       text-align: center;
       padding-top: 2rem;
       border-top: 1px solid rgba(255, 255, 255, 0.1);
-      color: rgba(255, 255, 255, 0.7);
+      color: #d1d5db;
     }
 
     .footer-bottom strong {
-      color: var(--primary-light);
+      color: #ffffff;
     }
 
     /* Animations */

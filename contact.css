@@ -499,8 +499,8 @@ body {
 
 /* ----- FOOTER (fully responsive) ----- */
 footer {
-  background: linear-gradient(145deg, #0b1120, #1a1f2f);
-  color: #cbd5e1;
+  background: linear-gradient(145deg, #1f2937, #374151);
+  color: #e5e7eb;
   padding: 60px 20px 20px;
   margin-top: 60px;
 }
@@ -523,7 +523,7 @@ footer {
 }
 
 .footer-col h3 {
-  color: white;
+  color: #ffffff;
   margin-bottom: 1.5rem;
   font-size: 1.3rem;
   position: relative;
@@ -554,7 +554,7 @@ footer {
 }
 
 .footer-col a {
-  color: #94a3b8;
+  color: #d1d5db;
   text-decoration: none;
   display: block;
   margin-bottom: 0.8rem;
@@ -562,13 +562,13 @@ footer {
 }
 
 .footer-col a:hover {
-  color: white;
+  color: #ffffff;
   transform: translateX(5px);
 }
 
 .footer-col p {
   margin-bottom: 0.5rem;
-  color: #a0aec0;
+  color: #d1d5db;
 }
 
 .footer-bottom {
@@ -577,7 +577,7 @@ footer {
   padding-top: 2rem;
   text-align: center;
   font-size: 0.95rem;
-  color: #94a3b8;
+  color: #d1d5db;
 }
 
 /* ----- MOBILE MENU ACTIVATION ----- */
